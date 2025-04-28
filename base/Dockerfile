@@ -36,6 +36,7 @@ run apt-get update \
         jq \
         libffi-dev \
         libreadline-dev \
+	libmagic1 \
 	# git: get the semi-official latest-stable git instead of using the old(er) version from the
 	# ubuntu distro
 	&& add-apt-repository ppa:git-core/ppa \
